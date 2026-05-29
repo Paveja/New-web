@@ -37,6 +37,12 @@
   padding: 2em;
 }
 
+.button-group {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
 .read-the-docs {
   color: #888;
 }
