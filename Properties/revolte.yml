@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Test Proj 1
-  appName: Test app
+  project: New Product
+  appName: testname
   config:
     codeReview:
       summarize: true
@@ -14,7 +14,7 @@ revolte:
       enabled: true
   env:
     staging:
-      branch: testbranch
+      branch: main
       codeReview: true
       testSuite: true
       services:
@@ -29,7 +29,7 @@ revolte:
             variables:
               BASE_URL: /api/v1
     qa:
-      branch: task-tr-1-165
+      branch: main
       codeReview: true
       testSuite: true
       services:
