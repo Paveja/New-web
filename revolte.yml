@@ -14,7 +14,7 @@ revolte:
       enabled: true
   env:
     staging:
-      branch: task-tr-1-165
+      branch: testbranch
       codeReview: true
       testSuite: true
       services:
@@ -29,7 +29,7 @@ revolte:
             variables:
               BASE_URL: /api/v1
     qa:
-      branch: main
+      branch: task-tr-1-165
       codeReview: true
       testSuite: true
       services:
